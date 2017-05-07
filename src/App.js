@@ -19,10 +19,10 @@ class App extends React.Component {
             <MuiThemeProvider muiTheme={getMuiTheme()}>
                 <div>
                     <AppBar title="Thrimbda's Site" />
-                    <Grid Alignment style={{margin: "20px auto"}}>
+                    <Grid fluid style={{margin: "20px auto"}}>
                         <Row className="center-xs middle-xs">
                             <Col xs={8}>
-                                <Paper style={{height: "70vh", padding: "20vh"}}>
+                                <Paper style={{height: "70vh", padding: "20vh"}} zDepth={3}>
                                     <h1>
                                         Thrimbda's Site.
                                     </h1>
